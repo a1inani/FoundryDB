@@ -1,14 +1,7 @@
 # FoundryDB
 
 <p align="center">
-  <img src="assets/banner.png" width="70%" />
-</p>
-
-<p align="center">
-  <img src="assets/badge/foundrydb-badge.svg" height="30" />
-  <img src="assets/badge/foundrydb_badge_python.png" height="30" />
-  <img src="assets/badge/foundrydb_badge_build.png" height="30" />
-  <img src="assets/badge/foundrydb_badge_license.png" height="30" />
+  <img src="assets/banner.png" width="50%" />
 </p>
 
 **A tiny educational SQL engine written in pure Python.**
