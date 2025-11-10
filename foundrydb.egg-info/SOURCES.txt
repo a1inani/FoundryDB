@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+foundrydb/Database.py
+foundrydb/__init__.py
+foundrydb/__main__.py
+foundrydb/cli.py
+foundrydb/database.py
+foundrydb.egg-info/PKG-INFO
+foundrydb.egg-info/SOURCES.txt
+foundrydb.egg-info/dependency_links.txt
+foundrydb.egg-info/entry_points.txt
+foundrydb.egg-info/requires.txt
+foundrydb.egg-info/top_level.txt

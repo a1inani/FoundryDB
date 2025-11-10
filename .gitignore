@@ -7,6 +7,7 @@ __pycache__/
 
 # Byte-compiled / optimized / DLL files
 *.pyo
+*.pyc
 *.pyd
 *.so
 
@@ -129,4 +130,6 @@ poetry.lock
 requirements.txt.lock
 
 !examples/demo.db/
-!foundrydb/foundries/
+foundrydb/foundries/
+foundrydb/__pycache__/
+tests/__pycache__/

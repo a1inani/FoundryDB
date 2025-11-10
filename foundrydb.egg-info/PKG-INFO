@@ -1,3 +1,27 @@
+Metadata-Version: 2.4
+Name: foundrydb
+Version: 0.1.0
+Summary: A tiny educational SQL engine written in pure Python.
+Author: Alinani Simukanga
+License: MIT
+Project-URL: Homepage, https://github.com/a1inani/foundrydb
+Project-URL: Repository, https://github.com/a1inani/foundrydb
+Project-URL: Issues, https://github.com/a1inani/foundrydb/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: license-file
+
 # FoundryDB
 
 <p align="center">
@@ -63,18 +87,6 @@ pip install -e .
 ```
 
 From the foundrydb folder to add the package to sys.path. This step is necessary before running tests.
-
-At the project root, run:
-```
-pytest -v
-```
-
-You should see something like:
-```
-tests/test_database.py::test_database_initialization PASSED
-tests/test_database.py::test_execute_returns_list PASSED
-tests/test_storage.py::test_table_insert_and_persist PASSED
-```
 
 ---
 
