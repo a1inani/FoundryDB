@@ -40,6 +40,26 @@ This is not production-grade software. It's a playground.
 
 ---
 
+## Phases
+
+- ~~Phase 1: Core Storage Engine (v0.1)~~
+- Phase 2: Simple Query Language (v0.1)
+- Phase 3: Data Types & Schema Management (v0.2)
+- Phase 4: Basic Indexing (v0.2)
+- Phase 5: INSERT, UPDATE, DELETE (v0.2)
+- Phase 6: Page‑Based Storage (v0.3)
+- Phase 7: Multi‑Table Queries (JOINs) (v0.4)
+- Phase 8: Aggregations & Grouping (v0.4)
+- Phase 9: Basic Transactions (v0.5)
+- Phase 10: Query Optimization (v0.6)
+- Phase 11: Advanced Indexes (v0.7)
+- Phase 12: Concurrency Control (v0.7)
+- Phase 13: Constraints & Foreign Keys (v0.8)
+- Phase 14: Views & Subqueries (v0.8)
+- Phase 15: Advanced Features (v0.9+)
+
+---
+
 ## Roadmap ideas
 
 - `SELECT` with projections + simple `WHERE` + other DDL and DML commands
