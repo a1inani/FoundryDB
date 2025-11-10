@@ -64,6 +64,18 @@ pip install -e .
 
 From the foundrydb folder to add the package to sys.path. This step is necessary before running tests.
 
+At the project root, run:
+```
+pytest -v
+```
+
+You should see something like:
+```
+tests/test_database.py::test_database_initialization PASSED
+tests/test_database.py::test_execute_returns_list PASSED
+tests/test_storage.py::test_table_insert_and_persist PASSED
+```
+
 ---
 
 ## License
