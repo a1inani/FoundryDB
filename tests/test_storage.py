@@ -23,5 +23,5 @@ def test_scan_reads_back_inserted_rows(tmp_path):
     for row in rows:
         storage.insert(table_name, row)
 
-    result = list(storage.san(table_name))
+    result = list(storage.scan(table_name))
     assert result == rows
