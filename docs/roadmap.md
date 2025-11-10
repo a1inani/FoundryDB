@@ -366,7 +366,7 @@
 
 ---
 
-## Phase 15: Advanced Features (pick & choose) (v0.9+)
+## Phase 15: Advanced Features (v0.9+)
 
 **Menu:**
 
