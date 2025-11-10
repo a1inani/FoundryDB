@@ -55,6 +55,17 @@ This is not production-grade software. It's a playground.
 
 ---
 
+## Testing
+
+Run 
+```
+pip install -e .
+```
+
+From the foundrydb folder to add the package to sys.path. This step is necessary before running tests.
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
