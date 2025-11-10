@@ -1,0 +1,132 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# PyInstaller
+# Usually these are generated for executables
+*.exe
+*.dll
+*.pkg
+*.app
+
+# Coverage / test reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+hypothesis/
+.pytest_cache/
+junit.xml
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# macOS & Linux system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Icon?
+*.trash
+
+# MyPy / static analysis
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Ruff / linting cache
+.ruff_cache/
+
+# Cython / compiled extensions
+*.c
+*.cpp
+*.pyd
+*.pdb
+*.pyo
+*.obj
+*.o
+
+# ---------------------------------------
+# FoundryDB-specific
+# ---------------------------------------
+# Local databases and test data
+foundries/
+*.db
+*.idx
+*.tbl
+*.meta
+*.wal
+
+# CLI session logs
+session.log
+
+# Docs and examples output
+docs/_build/
+docs/build/
+examples/output/
+examples/*.db
+
+# ---------------------------------------
+# Optional - project metadata
+# ---------------------------------------
+# VS Code settings / Python settings
+.settings/
+.python-version
+
+# Virtual environment tools
+Pipfile.lock
+poetry.lock
+requirements.txt.lock
+
+!examples/demo.db/
+!foundrydb/foundries/
