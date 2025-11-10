@@ -130,3 +130,4 @@ requirements.txt.lock
 
 !examples/demo.db/
 !foundrydb/foundries/
+!foundrydb/__pycache__/
