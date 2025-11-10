@@ -1,0 +1,97 @@
+Metadata-Version: 2.4
+Name: foundrydb
+Version: 0.1.0
+Summary: A tiny educational SQL engine written in pure Python.
+Author: Alinani Simukanga
+License: MIT
+Project-URL: Homepage, https://github.com/a1inani/foundrydb
+Project-URL: Repository, https://github.com/a1inani/foundrydb
+Project-URL: Issues, https://github.com/a1inani/foundrydb/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: license-file
+
+# FoundryDB
+
+<p align="center">
+  <img src="assets/banner.png" width="50%" />
+</p>
+
+**A tiny educational SQL engine written in pure Python.**
+
+FoundryDB is a personal experimental project to explore how relational database systems actually work under the hood. From parsing SQL, to planning, to storage and tuple access.
+
+This is not production-grade software. It's a playground.
+
+---
+
+## Goals
+
+- Teach myself the internal moving parts of a DBMS
+- Be small enough to understand in a single sitting
+- Pure Python
+- Transparent / readable code > performance
+
+---
+
+## Non-goals
+
+- Competing with SQLite or Postgres
+- Correctness for all SQL edge cases
+- Maximizing speed
+
+---
+
+## Rough architecture (planned)
+
+| Layer | Responsibility |
+|---|---|
+| **Lexer/Parser** | tokenize & parse SQL into AST |
+| **Planner** | validate AST + generate logical plans |
+| **Execution Engine** | run plans against storage |
+| **Storage** | page format, files, catalog, indexes (maybe later) |
+
+---
+
+## Roadmap ideas
+
+- `SELECT` with projections + simple `WHERE` + other DDL and DML commands
+- Disk-backed heap file manager
+- Simple B-Tree index (stretch goal)
+- Minimal transaction log + recovery (stretch goal)
+
+---
+
+## Requirements
+
+- Python ≥ 3.11
+
+---
+
+## Testing
+
+Run 
+```
+pip install -e .
+```
+
+From the foundrydb folder to add the package to sys.path. This step is necessary before running tests.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See [`LICENSE`](./LICENSE) for details.
