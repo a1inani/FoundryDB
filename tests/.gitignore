@@ -129,5 +129,5 @@ poetry.lock
 requirements.txt.lock
 
 !examples/demo.db/
-!foundrydb/foundries/
-!foundrydb/__pycache__/
+foundrydb/foundries/
+foundrydb/__pycache__/
