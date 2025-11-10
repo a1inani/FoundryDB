@@ -1,5 +1,9 @@
 # FoundryDB
 
+<p align="center">
+  <img src="assets/banner.png" width="50%" />
+</p>
+
 **A tiny educational SQL engine written in pure Python.**
 
 FoundryDB is a personal experimental project to explore how relational database systems actually work under the hood. From parsing SQL, to planning, to storage and tuple access.
