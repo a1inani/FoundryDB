@@ -39,7 +39,7 @@
 
 **Notes**
 
-* Prefer CSV for readability *or* fixed‑width for consistent offsets. Start simple—indexes/transactions come later.
+* Prefer CSV for readability *or* fixed‑width for consistent offsets. Start simple, indexes/transactions come later.
 
 ---
 
@@ -61,7 +61,7 @@
 
 **Acceptance Tests**
 
-* Basic projections: `SELECT id,name FROM t`.
+* Basic projections: `SELECT id, name FROM t`.
 * WHERE operators: `=, !=, <, <=, >, >=` on INT/VARCHAR.
 * Unknown column or table ⇒ friendly error.
 
