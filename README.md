@@ -1,11 +1,17 @@
 # FoundryDB
 
-<p align="center">
-  <img src="assets/banner.png" width="50%" />
-</p>
-
 ![Version](https://img.shields.io/badge/version-0.1.0-orange)
 ![PyPI - Version](https://img.shields.io/pypi/v/foundrydb-core)
+![Python](https://img.shields.io/pypi/pyversions/foundrydb-core.svg)
+![License](https://img.shields.io/github/license/a1inani/foundrydb)
+![Code Style](https://img.shields.io/badge/code%20style-ruff-orange)
+![Type Checking](https://img.shields.io/badge/mypy-passing-brightgreen)
+![Tests](https://img.shields.io/github/actions/workflow/status/a1inani/FoundryDB/pytest.yml?label=pytest)
+![PyPI](https://img.shields.io/pypi/dm/foundrydb-core)
+[![Docs](https://img.shields.io/badge/docs-available-brightgreen)](https://a1inani.github.io/FoundryDB/)
+![Last Commit](https://img.shields.io/github/last-commit/a1inani/FoundryDB)
+![Open Issues](https://img.shields.io/github/issues/a1inani/FoundryDB)
+
 
 
 **A tiny educational SQL engine written in pure Python.**
