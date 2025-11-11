@@ -3,6 +3,7 @@
 Simple REPL for FoundryDB
 """
 
+
 def main():
     print("FoundryDB CLI starting…")
     print("Type '.exit' to quit.")
