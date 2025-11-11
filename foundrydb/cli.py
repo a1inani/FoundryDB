@@ -1,16 +1,15 @@
-# foundrydb/cli.py
-"""
-Simple REPL for FoundryDB
-"""
+# in cli.py
+from foundrydb.database import Database
+
 
 def main():
-    print("FoundryDB CLI starting…")
-    print("Type '.exit' to quit.")
-
+    db = Database("foundries/cli_demo")
+    print("FoundryDB CLI ready. Type '.exit' to quit.")
     while True:
-        cmd = input("foundrydb> ").strip()
-        if cmd in (".exit", "exit", "quit"):
-            print("Goodbye!")
+        sql = input("foundrydb> ").strip()
+        if sql in (".exit", "exit", "quit"):
             break
-        elif cmd:
-            print(f"(pretending to execute): {cmd}")
+        result = db.execute(sql)
+        if result:
+            for row in result:
+                print(row)
