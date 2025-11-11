@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="foundrydb",
+    name="foundrydb-core",
     version="0.1.0",
     author="Alinani Simukanga",
     description="A tiny educational SQL engine written in pure Python.",

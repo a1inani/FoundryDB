@@ -2,11 +2,14 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
+setup.py
 foundrydb/Database.py
 foundrydb/__init__.py
 foundrydb/__main__.py
+foundrydb/catalog.py
 foundrydb/cli.py
 foundrydb/database.py
+foundrydb/storage.py
 foundrydb.egg-info/PKG-INFO
 foundrydb.egg-info/SOURCES.txt
 foundrydb.egg-info/dependency_links.txt

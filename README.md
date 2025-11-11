@@ -4,11 +4,25 @@
   <img src="assets/banner.png" width="50%" />
 </p>
 
+![Version](https://img.shields.io/badge/version-0.1.0-orange)
+![PyPI - Version](https://img.shields.io/pypi/v/foundrydb-core)
+
+
 **A tiny educational SQL engine written in pure Python.**
 
 FoundryDB is a personal experimental project to explore how relational database systems actually work under the hood. From parsing SQL, to planning, to storage and tuple access.
 
 This is not production-grade software. It's a playground.
+
+---
+
+## Installation
+Run the following command:
+
+```
+pip install foundrydb-core
+```
+https://pypi.org/project/foundrydb-core/
 
 ---
 
