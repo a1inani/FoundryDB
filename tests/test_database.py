@@ -1,6 +1,6 @@
 import pytest
-from pathlib import Path
 from foundrydb.database import Database
+
 
 @pytest.fixture
 def temp_db(tmp_path):
@@ -8,16 +8,19 @@ def temp_db(tmp_path):
     db = Database("demo")
     yield db
 
+
 def test_database_initialization(temp_db):
     db = temp_db
     assert db.path.exists()
     assert db.catalog is not None
     assert db.storage is not None
 
+
 def test_execute_returns_list(temp_db):
     """execute() should return a list even if empty"""
     result = temp_db.execute("SELECT * FROM users;")
     assert isinstance(result, list)
+
 
 def test_insert_and_scan(tmp_path):
     """Simulate table insert/scan operations."""
