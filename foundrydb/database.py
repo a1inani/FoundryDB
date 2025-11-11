@@ -1,6 +1,6 @@
 """
 Database module for FoundryDB.
-Phase 1–2 stub: provides a minimal in-process database interface.
+Phase 1 - 2 stub: provides a minimal in-process database interface.
 """
 
 from __future__ import annotations
@@ -71,6 +71,7 @@ class Database:
                 return []
             # Evaluate JSON safely
             import json
+
             row = json.loads(json_text.replace("'", '"'))
             self.storage.insert(table_name, row)
             print(f"Inserted row into '{table_name}': {row}")
