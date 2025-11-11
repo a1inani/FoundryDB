@@ -7,7 +7,7 @@ setup(
     description="A tiny educational SQL engine written in pure Python.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/foundrydb",
+    url="https://github.com/a1inani/foundrydb",
     license="MIT",
     packages=find_packages(exclude=["tests*", "docs*", "examples*"]),
     python_requires=">=3.11",
