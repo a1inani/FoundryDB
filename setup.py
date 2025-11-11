@@ -10,7 +10,7 @@ setup(
     url="https://github.com/a1inani/foundrydb",
     license="MIT",
     packages=find_packages(exclude=["tests*", "docs*", "examples*"]),
-    python_requires=">=3.11",
+    python_requires=">=3.10",
     install_requires=[],
     extras_require={
         "dev": [
